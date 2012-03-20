@@ -2,17 +2,38 @@
   display:none;
 }
 
-.sideButton {
-  display: block;
-  position: fixed;
-  
-  top: 100px;
-  left: -57px;
-
-  -webkit-transform: rotate(-90deg); 
-  -moz-transform: rotate(-90deg);
+.shaded {
+  box-shadow: 8px 8px 12px #aaa;
 }
 
-div.sideButton > a {
-  font-size:1.5em;
+.sideRibbon{
+  display: block;
+  position: fixed;
+
+  width: 300px;
+  height: 40px;
+
+  top: 70px;
+  left: -70px;
+
+  background: orange;
+
+  -webkit-transform: rotate(-45deg); 
+  -moz-transform: rotate(-45deg);
+}
+
+.sideRibbon > p {
+  height: 100%;
+  text-align: center;
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 23px;
+  text-shadow: 2px 2px 4px #999;
+  line-height: 18px;
+  color: #333333;
+}
+
+.valign {
+  position: relative;
+  top: 28%;
 }

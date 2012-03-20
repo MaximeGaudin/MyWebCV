@@ -26,26 +26,35 @@
   </head>
 
   <body>
-    <!-- Modal 
-    <div class="modal" id="myModal">
+    <div class="sideRibbon shaded">
+      <p><a class="valign" data-toggle="modal" href="#myModal">Me contacter</a></p>
+    </div>
+
+    <div class="modal hide fade" id="myModal">
       <div class="modal-header">
         <a class="close" data-dismiss="modal">×</a>
-        <h3>Modal header</h3>
+        <h3>Me contacter</h3>
       </div>
 
       <div class="modal-body">
-        <p>One fine body…</p>
+        <img src="img/picture.png" style="vertical-align: middle;"></img>
+
+        <span style="display:inline-block;">
+          <p>
+            <i class="icon-envelope"></i> 
+            <a href="mailto:gaudin.maxime@gmail.com">gaudin.maxime@gmail.com</a>
+          </p>
+          <p>
+            <i class="icon-signal"></i> (+33) 6 51 09 06 27
+          </p>
+        </span>
       </div>
 
       <div class="modal-footer">
-        <a href="#" onclick="$('#myModal').modal('hide')" class="btn">Close</a>
+        <a href="#" data-dismiss="modal" class="btn">Fermer</a>
       </div>
     </div>
-    -->
 
-    <div class="sideButton">
-      <a class="btn btn-success" href="mailto:gaudin.maxime@gmail.com">Me contacter</a>
-    </div>
 
     <div class="container">
       <div class="hero-unit">
@@ -64,6 +73,7 @@
         </p>
       </div>
 
+
       <div class="row">
         <div class="span4 toFade">
           <h2>Mes compétences</h2>
@@ -73,22 +83,27 @@
           le développement d'un site web pour une entreprise d'intérimaires et
           même sur des chantiers. À travers ces différents emplois, j'ai pu
           acquiérir des compétences variés et approfondies.
-          <p><a class="btn" href="#">Découvrez les ici&raquo;</a></p>
+          </p>
+          <p><a class="btn btn-info pull-right" href="./competences.html">Découvrez les ici &raquo;</a></p>
         </div>
         <div class="span4 toFade">
           <h2>Mes réalisations</h2>
           <p>
-          En plus des différents prix et publications, je vous propose de
+          Passionné, je consacre beaucoup de mon temps libre à développer des
+          programmes et des utilitaires touchant à l'algorithmie, la
+          typographie, le ray tracing ou encore la compilation.
+          </p>
+          <p>
+          En plus de mes prix et publications, je vous propose de
           découvrir dans cette section les différents projets personnels ou
           professionnels qui m'ont marqués.
           </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-info pull-right" href="#">Découvrez les ici &raquo;</a></p>
         </div>
-        <div class="span4 toFade">
+        <div align="center" class="span4 toFade">
           <h2>Mon CV imprimable</h2>
-          <p>Bien que plus complet, le format du site ne vous convient
-          peut-être pas.</p>
-          <p><a class="btn" href="#">Téléchargez la vesion papier &raquo;</a></p>
+          <br/>
+          <p align="center"><a class="btn btn-success" href="#">Téléchargez la vesion papier &raquo;</a></p>
         </div>
       </div>
 
